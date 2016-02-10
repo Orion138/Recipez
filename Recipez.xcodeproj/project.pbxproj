@@ -18,6 +18,7 @@
 		2E86B7981C6AF166001888ED /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B7961C6AF166001888ED /* Recipe+CoreDataProperties.swift */; };
 		2E86B7991C6AF166001888ED /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B7971C6AF166001888ED /* Recipe.swift */; };
 		2E86B79B1C6AF506001888ED /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B79A1C6AF506001888ED /* RecipeCell.swift */; };
+		2E86B79D1C6BCD6D001888ED /* CreateRecipeVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B79C1C6BCD6D001888ED /* CreateRecipeVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		2E86B7961C6AF166001888ED /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
 		2E86B7971C6AF166001888ED /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
 		2E86B79A1C6AF506001888ED /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
+		2E86B79C1C6BCD6D001888ED /* CreateRecipeVC.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CreateRecipeVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -157,6 +159,7 @@
 			isa = PBXGroup;
 			children = (
 				2E86B7641C6AE5D8001888ED /* ViewController.swift */,
+				2E86B79C1C6BCD6D001888ED /* CreateRecipeVC.swift */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -296,6 +299,7 @@
 				2E86B7981C6AF166001888ED /* Recipe+CoreDataProperties.swift in Sources */,
 				2E86B7631C6AE5D8001888ED /* AppDelegate.swift in Sources */,
 				2E86B79B1C6AF506001888ED /* RecipeCell.swift in Sources */,
+				2E86B79D1C6BCD6D001888ED /* CreateRecipeVC.swift in Sources */,
 				2E86B76B1C6AE5D8001888ED /* Recipez.xcdatamodeld in Sources */,
 				2E86B7991C6AF166001888ED /* Recipe.swift in Sources */,
 			);
