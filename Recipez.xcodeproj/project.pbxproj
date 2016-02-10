@@ -15,6 +15,9 @@
 		2E86B7701C6AE5D8001888ED /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2E86B76E1C6AE5D8001888ED /* LaunchScreen.storyboard */; };
 		2E86B77B1C6AE5D8001888ED /* RecipezTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B77A1C6AE5D8001888ED /* RecipezTests.swift */; };
 		2E86B7861C6AE5D8001888ED /* RecipezUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B7851C6AE5D8001888ED /* RecipezUITests.swift */; };
+		2E86B7981C6AF166001888ED /* Recipe+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B7961C6AF166001888ED /* Recipe+CoreDataProperties.swift */; };
+		2E86B7991C6AF166001888ED /* Recipe.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B7971C6AF166001888ED /* Recipe.swift */; };
+		2E86B79B1C6AF506001888ED /* RecipeCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2E86B79A1C6AF506001888ED /* RecipeCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -49,6 +52,9 @@
 		2E86B7811C6AE5D8001888ED /* RecipezUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RecipezUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		2E86B7851C6AE5D8001888ED /* RecipezUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RecipezUITests.swift; sourceTree = "<group>"; };
 		2E86B7871C6AE5D8001888ED /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2E86B7961C6AF166001888ED /* Recipe+CoreDataProperties.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "Recipe+CoreDataProperties.swift"; path = "../Recipe+CoreDataProperties.swift"; sourceTree = "<group>"; };
+		2E86B7971C6AF166001888ED /* Recipe.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = Recipe.swift; path = ../Recipe.swift; sourceTree = "<group>"; };
+		2E86B79A1C6AF506001888ED /* RecipeCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RecipeCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,10 +106,10 @@
 			isa = PBXGroup;
 			children = (
 				2E86B7621C6AE5D8001888ED /* AppDelegate.swift */,
-				2E86B7641C6AE5D8001888ED /* ViewController.swift */,
-				2E86B7661C6AE5D8001888ED /* Main.storyboard */,
+				2E86B7951C6AF0F2001888ED /* Controller */,
+				2E86B7941C6AF0E4001888ED /* View */,
+				2E86B7931C6AF0DA001888ED /* Model */,
 				2E86B76C1C6AE5D8001888ED /* Assets.xcassets */,
-				2E86B76E1C6AE5D8001888ED /* LaunchScreen.storyboard */,
 				2E86B7711C6AE5D8001888ED /* Info.plist */,
 				2E86B7691C6AE5D8001888ED /* Recipez.xcdatamodeld */,
 			);
@@ -126,6 +132,33 @@
 				2E86B7871C6AE5D8001888ED /* Info.plist */,
 			);
 			path = RecipezUITests;
+			sourceTree = "<group>";
+		};
+		2E86B7931C6AF0DA001888ED /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				2E86B7961C6AF166001888ED /* Recipe+CoreDataProperties.swift */,
+				2E86B7971C6AF166001888ED /* Recipe.swift */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		2E86B7941C6AF0E4001888ED /* View */ = {
+			isa = PBXGroup;
+			children = (
+				2E86B7661C6AE5D8001888ED /* Main.storyboard */,
+				2E86B76E1C6AE5D8001888ED /* LaunchScreen.storyboard */,
+				2E86B79A1C6AF506001888ED /* RecipeCell.swift */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		2E86B7951C6AF0F2001888ED /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				2E86B7641C6AE5D8001888ED /* ViewController.swift */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -260,8 +293,11 @@
 			buildActionMask = 2147483647;
 			files = (
 				2E86B7651C6AE5D8001888ED /* ViewController.swift in Sources */,
+				2E86B7981C6AF166001888ED /* Recipe+CoreDataProperties.swift in Sources */,
 				2E86B7631C6AE5D8001888ED /* AppDelegate.swift in Sources */,
+				2E86B79B1C6AF506001888ED /* RecipeCell.swift in Sources */,
 				2E86B76B1C6AE5D8001888ED /* Recipez.xcdatamodeld in Sources */,
+				2E86B7991C6AF166001888ED /* Recipe.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
